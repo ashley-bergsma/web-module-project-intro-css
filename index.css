@@ -134,6 +134,23 @@ h2, p{
   margin-bottom: 10%;
 }
 
+.hiker-buddy img {
+  height: 80px;
+}
+
+.hiker-buddy {
+  left: -1200px;
+  animation-name: float;
+  animation-duration: 30s;
+  animation-fill-mode: both;
+  animation-iteration-count: 4;
+}
+
+@keyframes float {
+  from { transform: translateX(-100px)}
+  to { transform: translateX(2000px)}
+}
+
 footer .nav-bar {
   background-image: url(assets/footer_img.jpg);
   background-position: center;
