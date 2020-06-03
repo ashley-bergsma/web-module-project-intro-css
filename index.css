@@ -61,7 +61,7 @@ section.nav-bar {
 }
 
 h1 {
-  font-family: "Chelsea Market";
+  font-family: "Chelsea Market", cursive;
   font-size: 3.5rem;
 }
 
@@ -87,7 +87,7 @@ h2, p{
 .text-banner {
   display: inline-block;
   width: 40%;
-  line-height: 2.5;
+  line-height: 3;
   text-align: center;
   margin-left: 5%;
   margin-top: 0%;
@@ -102,7 +102,7 @@ h2, p{
   color: white;
   width: 85%;
   margin: 0% auto;
-  margin-top: 10%;
+  margin-top: 0%;
   padding: 2%;
 }
 
@@ -139,16 +139,18 @@ h2, p{
 }
 
 .hiker-buddy {
+  margin-top: 5%;
+  margin-bottom: 0%;
   left: -1200px;
   animation-name: float;
   animation-duration: 30s;
-  animation-fill-mode: both;
-  animation-iteration-count: 4;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
 }
 
 @keyframes float {
   from { transform: translateX(-100px)}
-  to { transform: translateX(2000px)}
+  to { transform: translateX(950px)}
 }
 
 footer .nav-bar {
